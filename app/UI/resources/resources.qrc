@@ -1,5 +1,7 @@
 <RCC>
   <qresource prefix="icon">
+    <file>icon/decrypt.png</file>
+    <file>icon/encrypt.png</file>
     <file>icon/caesar-cipher.png</file>
   </qresource>
 </RCC>
