@@ -22,6 +22,7 @@
 - [Technologies](#technologies)
 - [Prerequisites](#prerequisites)
 - [How to run](#how-to-run)
+- [GUI modification](#gui-modification)
 - [License](#license)
 
 <!-- Application screenshot -->
@@ -62,6 +63,18 @@
 	(name-of-your-virtual-environment) $ pip install -r requirements.txt
 	``` 
 	
+## How to run
+
+With your virtual environment enabled
+```bash
+# Running the application
+(name-of-your-virtual-environment) $ python main.py
+```
+
+## GUI modification 
+
+**If you choose modify GUI will need generate a Python class and file**
+
 - #### Generating a Python class from the .ui file
 	```bash
 	# Enter in folder app of project
@@ -87,15 +100,7 @@
 	```
 	
 	**For more informations acess:** [Using .qrc Files (pyside2-rcc)](https://doc.qt.io/qtforpython/tutorials/basictutorial/qrcfiles.html)
-	
-	
-## How to run
 
-With your virtual environment enabled
-```bash
-# Running the application
-(name-of-your-virtual-environment) $ python main.py
-```
 
 <!-- License -->
 ## License
