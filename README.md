@@ -61,7 +61,34 @@
 	# Installing requirements
 	(name-of-your-virtual-environment) $ pip install -r requirements.txt
 	``` 
-
+	
+- #### Generating a Python class from the .ui file
+	```bash
+	# Enter in folder app of project
+	$ cd app/
+	``` 
+	Make sure what the virtual environment this activated.
+	```bash
+	# Generating a Python class
+	(name-of-your-virtual-environment) $ pyside2-uic ./UI/gui.ui > gui.py
+	```
+	
+	**For more informations acess:** [Using .ui Files (QUiLoader and pyside2-uic)](https://doc.qt.io/qtforpython/tutorials/basictutorial/uifiles.html)
+  	
+- #### Generating a Python file from the .qrc file
+	```bash
+	# Enter in folder app of project
+	$ cd app/
+	``` 
+	Make sure what the virtual environment this activated.
+	```bash
+	# Generating a Python file
+	(name-of-your-virtual-environment) $ pyside2-rcc ./UI/resources/resources.qrc -o resources_rc.py
+	```
+	
+	**For more informations acess:** [Using .qrc Files (pyside2-rcc)](https://doc.qt.io/qtforpython/tutorials/basictutorial/qrcfiles.html)
+	
+	
 ## How to run
 
 With your virtual environment enabled
