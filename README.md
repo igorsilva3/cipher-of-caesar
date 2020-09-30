@@ -73,7 +73,7 @@ With your virtual environment enabled
 
 ## GUI modification 
 
-**If you choose by modify GUI will need generate a Python class and file**
+**If you choose modify GUI will need generate a Python class and file**
 
 - #### Generating a Python class from the .ui file
 	```bash
