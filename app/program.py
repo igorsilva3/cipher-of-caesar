@@ -18,19 +18,23 @@ class Handler(QtWidgets.QMainWindow, Ui_MainWindow):
             )
     
     def get_text(self):
+        """ Returns the text of the textarea field """
         text = str(self.INPUT_TEXT.toPlainText())
         
         return text
     
     def get_key(self):
+        """ Returns the value of Spinbox """
         return int(self.key.value())
     
     def setTextOutput(self, text):
+        """ Place the text in the OUTPUT textarea """
         output = str(self.OUTPUT_TEXT.setPlainText(text))
         
         return output
     
     def encrypt(self):
+        """ Encrypts the text and places it in the OUTPUT textarea """
         text = self.get_text()
         key = self.get_key()
         
@@ -38,6 +42,7 @@ class Handler(QtWidgets.QMainWindow, Ui_MainWindow):
         setText = self.setTextOutput(cipher)
     
     def decrypt(self):
+        """ Decrypts the text and places it in the OUTPUT textarea """
         cipher = self.get_text()
         key = self.get_key()
         
